@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    margin: 150px auto 10px auto;
+}
+h1 {
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    margin: 20px auto;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+section {
+    text-align: center;
+}
+
+main section .box {
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    /*background-color: salmon;
+    */margin: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+main section .input {
+    width: 200px;
+    height: 35px;
+    /*background-color: salmon;
+    */font-size: 20px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    padding: 5px;
+    border: 2px solid black;
+    text-align: center;
+}
+.container input {
+    outline: none;
+    border: none;
+}
+
+footer {
+    margin: auto;
+    font-size: 20px;
+    margin-top: 30px;
+    width: 40%;
+    /* height: 50px; */
+    background-color: rgb(153, 152, 152);
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 60px;
+} 
+@media  screen and (max-width: 505px){
+    footer {
+        width: 50%;
+    }
+}
